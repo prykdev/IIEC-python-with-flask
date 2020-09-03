@@ -59,11 +59,7 @@ while True:
     elif(("run" in text)or("launch" in text)or("execute"in text)or("open" in text)) and (("chrome"in text)or("Chrome"in text)):
         pyttsx3.speak("opening chrome")
         os.system("chrome")
-        
-    elif(("run" in text)or("launch" in text)or("execute"in text)or("open" in text)) and (("BurpSuite"in text)or("Burp"in text)): 
-        pyttsx3.speak("opening burpsuit")
-        os.system("BurpSuiteCommunity")
-        
+                
     elif(("run" in text)or("launch" in text)or("execute"in text)or("open" in text)) and (("claculator"in text)or("cal"in text)): 
         pyttsx3.speak("opening claculator")
         os.system("calc")
