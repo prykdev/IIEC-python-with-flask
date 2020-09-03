@@ -32,10 +32,6 @@ while True:
         pyttsx3.speak("opening command prompt")
         os.system("cmd")
         
-    elif(("run" in p)or("launch" in p)or("execute"in p)or("open" in p)) and ("BurpSuite"in p): 
-        pyttsx3.speak("opening burpsuit")
-        os.system("BurpSuiteCommunity")
-        
     elif("exit"in p)or("quit"in p):
         pyttsx3.speak("thank you i am sure developer will add more features later to me")
         break
