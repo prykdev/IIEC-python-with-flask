@@ -46,7 +46,7 @@ while True:
             break
     if ('introduce' in text) or ('yourself' in text) :
         print('menu')
-        pyttsx3.speak("myself pika your voice assistant developed by priyanka just  just tell me what do you want me to do mam")
+        pyttsx3.speak("myself pika your voice assistant developed by priyanka just tell me what do you want me to do mam")
     
     elif (("run" in text) or ("launch" in text) or ("execute"in text) or ("open" in text)) and (("notepad"in text)or("Notepad"in text)):
         pyttsx3.speak("opening notepad")
